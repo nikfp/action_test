@@ -4,7 +4,7 @@ on: push
 
 jobs:
   echo_something:
-    runs_on: ubuntu-latest
+    runs-on: ubuntu-latest
     name: Echo Something
     steps: 
       - name: echo
